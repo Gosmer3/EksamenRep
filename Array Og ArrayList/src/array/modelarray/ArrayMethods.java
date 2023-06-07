@@ -39,7 +39,13 @@ public class ArrayMethods {
      */
     public int[] fyldArrayC() {
         int[] result = new int[10];
-        //TODO
+
+        int counter = 0;
+
+        for (int i = 0; i < result.length; i++) {
+            result[i] = counter;
+            counter++;
+        }
         return result;
     }
 
@@ -49,7 +55,12 @@ public class ArrayMethods {
      */
     public int[] fyldArrayD() {
         int[] result = new int[10];
-        //TODO
+        int counter = 2;
+
+        for (int i = 0; i < result.length; i++) {
+            result[i] = counter;
+            counter += 2;
+        }
         return result;
     }
 
@@ -69,7 +80,16 @@ public class ArrayMethods {
      */
     public int[] fyldArrayF() {
         int[] result = new int[10];
-        //TODO
+        int count = 0;
+        for (int i = 0; i < result.length; i++) {
+            if (count==0){
+                result[i] = 0;
+                count++;
+            } else {
+                result[i] = 1;
+                count--;
+            }
+        }
         return result;
     }
 
@@ -79,7 +99,18 @@ public class ArrayMethods {
      */
     public int[] fyldArrayG() {
         int[] result = new int[10];
-        //TODO
+        int count = 0;
+
+        for (int i = 0; i < result.length; i++) {
+            if (count<=4){
+                result[i] = count;
+                count++;
+            } else {
+                count = 0;
+                result[i] = count;
+                count++;
+            }
+        }
         return result;
     }
     
