@@ -123,4 +123,22 @@ public class ArrayMethods {
         }
         return max;
     }
+    public int sum(int[] t){
+        int sum = 0;
+        for (int i = 0; i < t.length; i++) {
+
+            sum += t[i];
+        }
+        return sum;
+    }
+
+    public int[] makeSum(int[] a, int[] b){
+        int [] resultat = new int[a.length];
+
+        for (int i = 0; i < a.length; i++) {
+           resultat[i] = a[i] + b[i];
+        }
+
+        return resultat;
+    }
 }
