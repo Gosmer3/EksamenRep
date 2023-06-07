@@ -6,8 +6,7 @@ public class ArrayMethods {
         for (int i = 0; i < tabel.length; i++) {
             if (i == 0) {
                 System.out.print(tabel[i]);
-            }
-            else {
+            } else {
                 System.out.print(", " + tabel[i]);
             }
         }
@@ -15,16 +14,14 @@ public class ArrayMethods {
     }
 
     /**
-     *
      * @return et array med indhold [0,0,0,0,0,0,0,0,0,0]
      */
     public int[] fyldArrayA() {
         int[] result = new int[10];
         return result;
     }
-    
+
     /**
-     *
      * @return et array med indhold [2,44,-23,99,8,-5,7,10,20,30]
      */
     public int[] fyldArrayB() {
@@ -32,9 +29,8 @@ public class ArrayMethods {
         //TODO
         return result;
     }
-    
+
     /**
-     *
      * @return et array med indhold [0,1,2,3,4,5,6,7,8,9]
      */
     public int[] fyldArrayC() {
@@ -50,7 +46,6 @@ public class ArrayMethods {
     }
 
     /**
-     *
      * @return et array med indhold [2,4,6,8,10,12,14,16,18,20]
      */
     public int[] fyldArrayD() {
@@ -65,7 +60,6 @@ public class ArrayMethods {
     }
 
     /**
-     *
      * @return et array med indhold [1,4,9,16,25,36,49,64,81,100]
      */
     public int[] fyldArrayE() {
@@ -75,14 +69,13 @@ public class ArrayMethods {
     }
 
     /**
-     *
      * @return et array med indhold [0,1,0,1,0,1,0,1,0,1]
      */
     public int[] fyldArrayF() {
         int[] result = new int[10];
         int count = 0;
         for (int i = 0; i < result.length; i++) {
-            if (count==0){
+            if (count == 0) {
                 result[i] = 0;
                 count++;
             } else {
@@ -94,7 +87,6 @@ public class ArrayMethods {
     }
 
     /**
-     *
      * @return et array med indhold [0,1,2,3,4,0,1,2,3,4]
      */
     public int[] fyldArrayG() {
@@ -102,7 +94,7 @@ public class ArrayMethods {
         int count = 0;
 
         for (int i = 0; i < result.length; i++) {
-            if (count<=4){
+            if (count <= 4) {
                 result[i] = count;
                 count++;
             } else {
@@ -113,7 +105,7 @@ public class ArrayMethods {
         }
         return result;
     }
-    
+
     public int findMax(int[] tabel) {
         int max = -1;
         for (int i = 0; i < tabel.length; i++) {
@@ -123,7 +115,8 @@ public class ArrayMethods {
         }
         return max;
     }
-    public int sum(int[] t){
+
+    public int sum(int[] t) {
         int sum = 0;
         for (int i = 0; i < t.length; i++) {
 
@@ -132,13 +125,25 @@ public class ArrayMethods {
         return sum;
     }
 
-    public int[] makeSum(int[] a, int[] b){
-        int [] resultat = new int[a.length];
+    public int[] makeSum(int[] a, int[] b) {
+        int[] resultat = new int[a.length];
 
         for (int i = 0; i < a.length; i++) {
-           resultat[i] = a[i] + b[i];
+            resultat[i] = a[i] + b[i];
         }
 
         return resultat;
+    }
+
+    public boolean hasUneven(int[] t) {
+        boolean found = false;
+
+        for (int i = 0; i < t.length; i++) {
+            if (t[i] % 2 != 0) {
+                found = true;
+            }
+        }
+
+        return found;
     }
 }
