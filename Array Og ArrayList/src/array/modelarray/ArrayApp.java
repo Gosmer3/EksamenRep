@@ -47,6 +47,14 @@ public class ArrayApp {
         //
         // System.out.println(metode.findMax(tabel2));
 
+        int [] tabel3 = {4,6,7,2,3};
+        System.out.println(metode.sum(tabel3));
+
+        int [] tabel4 = {4,6,7,2,3};
+        int [] tabel5 = {3,0,9,5,5};
+
+        System.out.println(Arrays.toString(metode.makeSum(tabel4,tabel5)));
+
     }
 
 }
