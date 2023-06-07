@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array Og ArrayList/Array Og ArrayList.iml" filepath="$PROJECT_DIR$/Array Og ArrayList/Array Og ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/EksamenRep.iml" filepath="$PROJECT_DIR$/EksamenRep.iml" />
     </modules>
   </component>
