@@ -13,9 +13,9 @@ public class StudentApp {
 		System.out.println(s1.getName() + " " + s1.getAge());
 		System.out.println(s2.getName() + " " + s2.getAge());
 
+		s2.addGrade(10);
 		s2.addGrade(7);
 		s2.addGrade(12);
-		s2.addGrade(10);
 
 		System.out.println(s2.getName() + " har et gennemsnit paa: " + s2.averageGrade());
 		System.out.println(s1.getName() + " har et gennemsnit paa: " + s1.averageGrade());
@@ -25,6 +25,10 @@ public class StudentApp {
 			System.out.println(s2.getGrades()[i]);
 		}
 
+		//Opgave 1.A
+		System.out.println(s2.maxGrade());
+
+		System.out.println(s2.minGrade());
 	}
 
 }
