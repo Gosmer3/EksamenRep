@@ -31,7 +31,7 @@ public class MethodsArrayListApp {
 //		System.out.println();
 //
 //
-//		System.out.println(methods.aEvenList(list));
+	System.out.println(methods.aEvenList(list));
 	}
 
 
