@@ -47,5 +47,10 @@ public class Customer implements Comparable<Customer> {
 
         return comp;
     }
+
+    @Override
+    public String toString() {
+        return "Navn " + fornavn + efternavn + " Alder " + alder;
+    }
 }
 
