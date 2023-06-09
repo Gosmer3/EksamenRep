@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/EksamenRep.iml" filepath="$PROJECT_DIR$/EksamenRep.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nedarvning/Nedarvning.iml" filepath="$PROJECT_DIR$/Nedarvning/Nedarvning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soegning/Soegning.iml" filepath="$PROJECT_DIR$/Soegning/Soegning.iml" />
     </modules>
   </component>
 </project>
