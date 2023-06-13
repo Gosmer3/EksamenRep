@@ -14,7 +14,7 @@ public class Opgave1DobbelArray {
         System.out.println(da.sumRow(values, 1));
         da.udskrivArray(values);
         System.out.println(da.sumCol(values, 1));
-
+        System.out.println(da.sum(values));
 
         //TODO Tilføj kode der afprøver metoderne du programmerer i klassen DobbelArray til opgave 1
 

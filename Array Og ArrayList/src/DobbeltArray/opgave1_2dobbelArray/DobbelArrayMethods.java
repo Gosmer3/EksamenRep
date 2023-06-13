@@ -1,5 +1,7 @@
 package DobbeltArray.opgave1_2dobbelArray;
 
+import java.util.Collections;
+
 /**
  * @author mad
  *
@@ -48,8 +50,12 @@ public class DobbelArrayMethods {
 
 	// Opgave 1.5
 	public  int sum(int[][] numbers) {
-		//TODO returnerer summen af alle tallene i numbers
-		return -1;
+		int sumForAll = 0;
+		for(int i =0; i < numbers.length;i++ ){
+			for(int j = 0; j<numbers[0].length;j++){
+				sumForAll += numbers[i][j];
+			}
+		}
+		return sumForAll;
 	}
-
 }

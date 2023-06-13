@@ -13,20 +13,36 @@ public class Opgave2DobbelArray {
         
 
         // TODO Opgave 2.1  lav ændringer i values så der står 5 på alle pladser
-        
+        for(int i =0; i < values[0].length;i++ ){
+        for(int j =0; j < values[0].length;j++ ){
+            values[i][j] = 5;
+
+            }
+        }
+
+
         System.out.println();
         System.out.println("Nedenfor skulle der stå 5 på alle pladser");
         System.out.println();
         da.udskrivArray(values);
-        
+
        // TODO Opgave 2.2  lav ændringer i values så der står 2 i lige rækker og 3 i ulige
-        
+        for (int i = 0; i < values.length; i++) {
+            for (int j = 0; j < values.length; j++) {
+                if(i % 2 == 0){
+                    values[i][j] = 2;
+            }
+                ;
+            }
+
+        }
         System.out.println();
         System.out.println("Nedenfor skulle der stå 2 og 3 på hver anden række");
         System.out.println();
         da.udskrivArray(values);
         
        // TODO Opgave 2.3  lav ændringer i values så der står 2 i lige søjler og 3 i ulige
+
         
         System.out.println();
         System.out.println("Nedenfor skulle der stå 2 og 3 på hver anden søjle");
