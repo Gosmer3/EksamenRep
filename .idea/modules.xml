@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nedarvning/Nedarvning.iml" filepath="$PROJECT_DIR$/Nedarvning/Nedarvning.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rekursion/Rekursion.iml" filepath="$PROJECT_DIR$/Rekursion/Rekursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soegning/Soegning.iml" filepath="$PROJECT_DIR$/Soegning/Soegning.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sortering/Sortering.iml" filepath="$PROJECT_DIR$/Sortering/Sortering.iml" />
     </modules>
