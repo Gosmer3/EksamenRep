@@ -73,7 +73,7 @@ public class Student {
      * Man kan faa oplyst den studerendes aktivitet, ved at kalde metoden
      * isAktiv
      */
-    public boolean isctive() {
+    public boolean isActive() {
         return active;
     }
 
