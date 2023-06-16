@@ -1,4 +1,4 @@
-package OpgaverRekursion1;
+package OpgaverRekursion;
 
 
 import java.util.ArrayList;
@@ -40,9 +40,16 @@ public class Opgaver2App {
         int counter2 = Opgaver2.countEvenNumbers(list2);
         System.out.println("Antal lige tal: " + counter2);
 
-
+        //Opgave 2
         System.out.println(Opgaver2.palindrom("ABBA"));
         System.out.println(Opgaver2.palindrom("racecar"));
+
+
+        //Opgave 3
+        int[] numbers = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+        System.out.println(Opgaver2.findesTal(numbers, 99));
+
+        System.out.println(Opgaver2.findesTal(numbers, 16));
 
     }
 }

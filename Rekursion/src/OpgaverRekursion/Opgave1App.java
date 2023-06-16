@@ -1,6 +1,4 @@
-package OpgaverRekursion1;
-
-import java.sql.SQLOutput;
+package OpgaverRekursion;
 
 public class Opgave1App {
     public static void main(String[] args) {

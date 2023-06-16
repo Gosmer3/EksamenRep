@@ -1,4 +1,4 @@
-package OpgaverRekursion1;
+package OpgaverRekursion;
 
 public class Opgave1 {
 
@@ -62,16 +62,20 @@ public class Opgave1 {
         if (a < b) {
             return SFD(b, a);
         }
-        return SFD(b, a%b);
+        return SFD(b, a % b);
     }
 
-    public static int domino(int n){
-if(n <= 0){
-    return 0;
-}if(n == 1){
-    return 1;
-        }else{
-    return domino(n-2) + domino(n-1);
+    //En dominobrik har målene 2*1. En n-strimmel er et bræt af længde n og bredde 2. Find en
+    //formel, der udtrykker antal måder, hvorpå en n-strimmel kan dækkes af dominobrikker.
+    //Anvend rekursion og udtryk formlen som funktion af n.
+    public static int domino(int n) {
+        if (n <= 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 1;
+        } else {
+            return domino(n - 2) + domino(n - 1);
         }
     }
 }
