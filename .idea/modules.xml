@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ApstrakteKlasser/ApstrakteKlasser.iml" filepath="$PROJECT_DIR$/ApstrakteKlasser/ApstrakteKlasser.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array Og ArrayList/Array Og ArrayList.iml" filepath="$PROJECT_DIR$/Array Og ArrayList/Array Og ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/EksamenRep.iml" filepath="$PROJECT_DIR$/EksamenRep.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nedarvning/Nedarvning.iml" filepath="$PROJECT_DIR$/Nedarvning/Nedarvning.iml" />
