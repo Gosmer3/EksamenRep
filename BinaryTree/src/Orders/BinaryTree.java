@@ -159,7 +159,7 @@ public class BinaryTree<E> {
 		if (n != null){
 			System.out.println(n.data);
 			preorder(n.left);
-			inorder(n.right);
+			preorder(n.right);
 		}
 	}
 

@@ -17,10 +17,11 @@ public class App {
         BinaryTree <Integer> n18 = new BinaryTree<>(18,n5,n19);
         BinaryTree <Integer> n20 = new BinaryTree<>(20,n18,n23);
 
+        System.out.println("Inorder: ");
         n20.inorder();
-        System.out.println("********************");
+        System.out.println("******************** \n Postorder");
         n20.postorder();
-        System.out.println("*********************");
+        System.out.println("********************* \n PreOrder");
         n20.preorder();
     }
 }
