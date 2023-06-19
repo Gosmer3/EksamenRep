@@ -168,8 +168,8 @@ public class BinaryTree<E> {
 	}
 	private void postorder(Node n){
 		if (n != null){
-			inorder(n.left);
-			inorder(n.right);
+			postorder(n.left);
+			postorder(n.right);
 			System.out.println(n.data);
 		}
 	}
