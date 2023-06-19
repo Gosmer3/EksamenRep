@@ -7,7 +7,6 @@ public class MergeSort {
             // Base case: Array er allerede sorteret eller tomt
             return;
         }
-
         // Opdel arrayet i to halvdele
         int mid = array.length / 2;
         int[] left = new int[mid];
