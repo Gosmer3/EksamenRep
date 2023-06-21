@@ -62,7 +62,7 @@ public class SortedLinkedListDouble {
      * Udskriver elementerne fra listen i sorteret rækkefølge
      */
     public void udskrivElements() {
-		Node temp = first;
+		Node temp = first.next;
 
 		while (temp != null){
 			System.out.println(temp.data);
@@ -75,7 +75,7 @@ public class SortedLinkedListDouble {
      */
     public void udskrivBagfra() {
 
-		Node temp = last;
+		Node temp = last.prev;
 
 		while (temp != first){
 			System.out.println(temp.data);
