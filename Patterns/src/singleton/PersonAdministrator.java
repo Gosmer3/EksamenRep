@@ -7,6 +7,9 @@ public class PersonAdministrator {
     Set<Person> personSet = new HashSet<>();
     private static PersonAdministrator instance;
 
+    private PersonAdministrator() {
+    }
+
     public static PersonAdministrator getInstance() {
         if (instance == null) {
             instance = new PersonAdministrator();

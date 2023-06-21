@@ -24,7 +24,7 @@ public class App {
         b1.etKøb(k1);
         b1.etKøb(k2);
         b1.etKøb(k3);
-        System.out.println(k1.getBogtitels());
-        System.out.println(k2.getBogtitels());
+       System.out.println(b1.getTitel());
+       System.out.println(k2.getBogtitels());
     }
 }

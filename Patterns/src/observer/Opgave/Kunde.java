@@ -20,4 +20,11 @@ public class Kunde {
     public ArrayList<Bogtitel> getBogtitels() {
         return bogtitels;
     }
+
+    @Override
+    public String toString() {
+        return "Kunde{" +
+                "bogtitels=" + bogtitels +
+                '}';
+    }
 }

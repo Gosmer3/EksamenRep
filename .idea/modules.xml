@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstraktPolymorfi/AbstraktPolymorfi.iml" filepath="$PROJECT_DIR$/AbstraktPolymorfi/AbstraktPolymorfi.iml" />
       <module fileurl="file://$PROJECT_DIR$/ApstrakteKlasser/ApstrakteKlasser.iml" filepath="$PROJECT_DIR$/ApstrakteKlasser/ApstrakteKlasser.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array Og ArrayList/Array Og ArrayList.iml" filepath="$PROJECT_DIR$/Array Og ArrayList/Array Og ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />

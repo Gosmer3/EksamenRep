@@ -59,4 +59,5 @@ public class Bogtitel implements Subjekt{
     public void removeObserver(Observer o) {
     observers.remove(o);
     }
+
 }

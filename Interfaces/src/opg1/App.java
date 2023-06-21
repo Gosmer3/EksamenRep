@@ -2,14 +2,16 @@ package opg1;
 
 public class App {
     public static void main(String[] args) {
-        Measurable[] objects = new Measurable[3];
+        Measurable[] objects = new Measurable[4];
 
         Chili c1 = new Chili("Mild", 200);
         Chili c2 = new Chili("Stærk", 20000);
         Chili c3 = new Chili("Meget Stærk", 120000);
+        Træ t1 = new Træ("Birk", 50);
         objects[0] = c1;
         objects[1] = c2;
         objects[2] = c3;
+        objects[3] = t1;
 
         Measurable maxObject = max(objects);
         System.out.println("Max object measure: " + maxObject.getMeasure());
